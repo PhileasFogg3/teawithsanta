@@ -1,5 +1,41 @@
 /**! The Universal Section !*/
+@media screen and (max-height:450px) {
+    .right {font-size: 18px; padding-top:15px;}
+    .left {font-size: 18px; padding-top:15px;}
+    .li a {padding: 7px 8px;}
+}
 * {
+    /**? Apply to everything in here ?*/
+}
+
+.name {
+    color: white;
+}
+
+.wAndLH {
+    color: black;
+}
+
+.title {
+    background-image: url("/images/header.png");
+    background-color: white;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 0px;
+    text-align: center; 
+}
+
+.titleText {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
     box-sizing: border-box;
     margin: 0px;
     background-image: linear-gradient( #54B0DE , #092D74);
@@ -8,30 +44,67 @@
     background-size: 100% 100%;
 }
 
-.title {
-    text-align: center;
-    padding-top: 20%;
-}
-
-.name {
-    font-family: 'League Gothic', 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 50px ;
-}
-
-.pageName {
-    font-family: Kollektif, Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 25px;
+.content { 
+    background-image: linear-gradient( #54B0DE , #092D74);
+    float: right; 
+    width: 60%; 
+    margin-right: 20%; 
+    margin-left: -80%;
+    padding-bottom: 100%;
     
 }
 
-.wAndLH {
-    font-family: Kollektif, Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 15px;
+.right { 
+    width: 20%; 
+    float: right;
+    padding-bottom: 100%;
+    border: #333;
 }
 
-div {
-    padding: 5px 5px 5px 5px;
+.left {
+    width: 20%; 
+    float: left; 
+    padding-bottom: 100%; 
+    border-top: #333;
 }
+
+.footer {
+    background: gray;
+    clear: both;
+}
+
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width:auto;
+  }
+  
+  li {
+    float: left;
+    padding-left: 78.15px;
+    padding-right: 78.15px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .active a:hover {
+        background-color: #0a8357; 
+  }
