@@ -1,12 +1,19 @@
-/**! The Universal Section !*/
-@media screen and (max-height:450px) {
-    .right {font-size: 18px; padding-top:15px;}
-    .left {font-size: 18px; padding-top:15px;}
-    .li a {padding: 7px 8px;}
-}
-* {
-    /**? Apply to everything in here ?*/
-}
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    
+    }
+    
+    @media screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    
+    }
+    
+    @media screen and (max-width: 479px) {
+    /* start of phone styles */
+    
+    }
+
+/* start of desktop styles */
 
 .name {
     color: white;
