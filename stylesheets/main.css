@@ -1,17 +1,31 @@
 @media screen and (max-width: 991px) {
     /* start of large tablet styles */
-    
+    .navBarBrowser {
+        display: none;
     }
+
+    .dropdown {
+        padding-left: 40.5%;
+    }
+}
     
-    @media screen and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     /* start of medium tablet styles */
-    
+    .dropdown {
+        padding-left: 38.5%;
     }
+}
+
     
-    @media screen and (max-width: 479px) {
+@media screen and (max-width: 479px) {
     /* start of phone styles */
-    
+    .dropdown {
+        padding-left: 32%;
     }
+
+    
+}
+
 
 /* start of desktop styles */
 
@@ -58,21 +72,30 @@ body {
     margin-right: 20%; 
     margin-left: -80%;
     padding-bottom: 100%;
-    
+    border-style: solid;
+    border-color: #333;
+    border-top: 0px;
+    border-bottom: 0px;
 }
 
 .right { 
     width: 20%; 
     float: right;
     padding-bottom: 100%;
-    border: #333;
+}
+
+.right div {
+    text-align: center;
 }
 
 .left {
     width: 20%; 
     float: left; 
     padding-bottom: 100%; 
-    border-top: #333;
+}
+
+.left div {
+    text-align: center;
 }
 
 .footer {
@@ -80,7 +103,8 @@ body {
     clear: both;
 }
 
-.navBar {
+/*! The Navbar for Browsers */
+.navBarBrowser {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -114,4 +138,97 @@ body {
 
   .active a:hover {
         background-color: #0a8357; 
+  }
+
+/*! End of Navbar for Browsers */
+
+/*? Navbar for Small Devices */
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hamburger {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    cursor: pointer;
+    background: #111;
+    border-radius: 5px;
+    box-shadow: 0 0 15px  rgba(78,109,113,0.8);
+}
+
+.hamburger > div {
+    position: absolute;
+    height: 10px;
+    background: #fff;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+.first {
+    width: 55px;
+    top: 25px;
+    left: 20px;
+}
+
+.second {
+    width: 40px;
+    top: 45px;
+    left: 20px;
+}
+
+.third {
+    width: 50px;
+    top: 65px;
+    left: 20px;
+}
+
+.hamburger:hover div {
+    width: 60px;
+    transition: width 0.3s ease;
+}
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #04AA6D;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+/*? End of Navbar for Small Devices */
+
+  .textContent {
+    text-align: center;
   }
