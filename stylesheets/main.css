@@ -4,26 +4,24 @@
         display: none;
     }
 
-    .dropdown {
-        padding-left: 40.5%;
+    .buttonBrowser {
+        display: inline-block;
     }
 }
     
 @media screen and (max-width: 767px) {
     /* start of medium tablet styles */
-    .dropdown {
-        padding-left: 38.5%;
+    .buttonBrowser {
+        display: inline-block;
     }
 }
 
     
 @media screen and (max-width: 479px) {
     /* start of phone styles */
-    .dropdown {
-        padding-left: 32%;
-    }
-
-    
+    .buttonBrowser {
+        display: inline-block;
+    }   
 }
 
 
@@ -115,8 +113,8 @@ body {
   
   li {
     float: left;
-    padding-left: 78.15px;
-    padding-right: 78.15px;
+    padding-left: 78px;
+    padding-right: 78px;
   }
   
   li a {
@@ -225,6 +223,12 @@ body {
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  .buttonBrowser {
+    display: inline-block;
+    padding-top: 340px;
+    padding-right: 2500px
   }
   
 /*? End of Navbar for Small Devices */
