@@ -7,6 +7,10 @@
     .buttonBrowser {
         display: inline-block;
     }
+
+    .name {
+      font-size: 30px;
+    }
 }
     
 @media screen and (max-width: 767px) {
@@ -16,11 +20,26 @@
     }
 }
 
+@media screen and (max-width: 548px) {
+  /* start of medium tablet styles */
+  .buttonBrowser {
+      display: inline-block;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+}
+
     
 @media screen and (max-width: 479px) {
     /* start of phone styles */
     .buttonBrowser {
         display: inline-block;
+    }
+
+    .name {
+      font-size: 10px
     }
 }
 
@@ -28,10 +47,15 @@
 
 .name {
     color: white;
+    font-size: 35px;
 }
 
 .wAndLH {
     color: black;
+}
+
+html body {
+  overflow-x: hidden;
 }
 
 .title {
@@ -43,7 +67,12 @@
     padding-top: 0px;
     text-align: center; 
     width: 100%;
-}
+    overflow-x: hidden
+  }
+
+  .buttonOverflow {
+    overflow: hidden;
+  }
 
 .titleText {
     text-align: center;
@@ -66,9 +95,9 @@ body {
     background-image: linear-gradient( #54B0DE , #092D74);
     border-style: solid;
     border-color: #333;
-    border-top: 10px;
-    border-bottom: 0px;
+    border-width: 10px;
     padding-bottom: 40px;
+    overflow-x: hidden;
 }
 
 .footer {
@@ -94,8 +123,8 @@ body {
   
   li {
     float: left;
-    padding-left: 162.25px;
-    padding-right: 162.25px;
+    padding-left: 33px;
+    padding-right: 33px;
   }
   
   li a {
@@ -208,11 +237,16 @@ body {
 
   .buttonBrowser {
     display: inline-block;
-    padding-top: 340px;
-    padding-right: 100%
+    padding-top: 100px;
+    padding-right: 2200px;
     }
   
 /*? End of Navbar for Small Devices */
+
+  .textContent {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 
   .textContent h3 {
     color: white;
