@@ -36,7 +36,7 @@
 }
 
 .title {
-    background-image: url("/images/header.png");
+    background-image: url("/images/header.gif");
     background-color: white;
     height: 450px;
     background-repeat: no-repeat;
@@ -55,53 +55,34 @@
 }
 
 body {
-    box-sizing: border-box;
     margin: 0px;
-    background-image: linear-gradient( #54B0DE , #092D74);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+    padding: 0;
+    background-color: #54B0DE
 }
 
 .content { 
+    position: absolute;
+    width: 100%;
     background-image: linear-gradient( #54B0DE , #092D74);
-    float: right; 
-    width: 60%; 
-    margin-right: 20%; 
-    margin-left: -80%;
-    padding-bottom: 100%;
     border-style: solid;
     border-color: #333;
     border-top: 0px;
     border-bottom: 0px;
-}
-
-.right { 
-    width: 20%; 
-    float: right;
-    padding-bottom: 100%;
-}
-
-.right div {
-    text-align: center;
-}
-
-.left {
-    width: 20%; 
-    float: left; 
-    padding-bottom: 100%; 
-}
-
-.left div {
-    text-align: center;
+    padding-bottom: 40px;
 }
 
 .footer {
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
     background: gray;
     clear: both;
+    overflow: auto;
 }
 
 /*! The Navbar for Browsers */
+
 .navBarBrowser {
     list-style-type: none;
     margin: 0;
@@ -113,8 +94,8 @@ body {
   
   li {
     float: left;
-    padding-left: 78px;
-    padding-right: 78px;
+    padding-left: 162.25px;
+    padding-right: 162.25px;
   }
   
   li a {
@@ -233,6 +214,34 @@ body {
   
 /*? End of Navbar for Small Devices */
 
-  .textContent {
+  .textContent h3 {
+    color: white;
+    font-size: 25px;
     text-align: center;
+  }
+
+  .textContent p {
+    color: white;
+    font-size: 20px
+  }
+
+  .textContent div {
+    padding: 10px;
+  }
+
+  .textContent div p {
+    text-align: left;
+    padding-left: 5px;
+  }
+
+  .textContent div i {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .testimonials div {
+    border: #111;
+    border-style: solid;
+    border-radius: 10px;
   }
