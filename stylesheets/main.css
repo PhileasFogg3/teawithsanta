@@ -53,10 +53,6 @@
     transform: translate(-50%, -50%);
 }
 
-html, body {
-  overflow-x: hidden;
-}
-
 body {
     margin: 0;
     padding: 0;
