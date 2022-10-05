@@ -21,9 +21,8 @@
     /* start of phone styles */
     .buttonBrowser {
         display: inline-block;
-    }   
+    }
 }
-
 
 /* start of desktop styles */
 
@@ -54,6 +53,10 @@
     transform: translate(-50%, -50%);
 }
 
+html, body {
+  overflow-x:hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -67,7 +70,7 @@ body {
     background-image: linear-gradient( #54B0DE , #092D74);
     border-style: solid;
     border-color: #333;
-    border-top: 0px;
+    border-top: 10px;
     border-bottom: 0px;
     padding-bottom: 40px;
 }
