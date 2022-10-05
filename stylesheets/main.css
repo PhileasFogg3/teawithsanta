@@ -37,13 +37,13 @@
 
 .title {
     background-image: url("/images/header.gif");
-    background-color: white;
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     padding-top: 0px;
     text-align: center; 
+    width: 100%;
 }
 
 .titleText {
@@ -57,7 +57,8 @@
 body {
     margin: 0px;
     padding: 0;
-    background-color: #54B0DE
+    background-color: #54B0DE;
+    width: 100%;
 }
 
 .content { 
@@ -89,7 +90,7 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    width:auto;
+    width: 100%;
   }
   
   li {
@@ -209,7 +210,7 @@ body {
   .buttonBrowser {
     display: inline-block;
     padding-top: 340px;
-    padding-right: 2500px
+    padding-right: 2400px
   }
   
 /*? End of Navbar for Small Devices */
