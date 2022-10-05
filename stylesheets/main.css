@@ -55,10 +55,10 @@
 }
 
 body {
-    margin: 0px;
+    margin: 0;
     padding: 0;
     background-color: #54B0DE;
-    width: auto;
+    overflow-x: hidden;
 }
 
 .content { 
@@ -210,8 +210,8 @@ body {
   .buttonBrowser {
     display: inline-block;
     padding-top: 340px;
-    padding-right: 2400px
-  }
+    padding-right: 100%
+    }
   
 /*? End of Navbar for Small Devices */
 
