@@ -245,3 +245,18 @@ body {
     border-style: solid;
     border-radius: 10px;
   }
+
+  .sponsorList div {
+    border: #111;
+    border-style: solid;
+    border-radius: 10px;
+  }
+
+.sponsorList img {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  overflow: hidden;
+}
