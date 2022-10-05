@@ -3,7 +3,7 @@
     .navBarBrowser {
         display: none;
     }
-    
+
     .buttonBrowser {
         display: inline-block;
     }
@@ -36,7 +36,7 @@
 }
 
 .title {
-    background-image: url("/images/header.gif");
+    background-image: url("/images/headerDISABLED.png");
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
