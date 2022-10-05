@@ -3,7 +3,7 @@
     .navBarBrowser {
         display: none;
     }
-
+    
     .buttonBrowser {
         display: inline-block;
     }
@@ -58,7 +58,7 @@ body {
     margin: 0px;
     padding: 0;
     background-color: #54B0DE;
-    width: 100%;
+    width: auto;
 }
 
 .content { 
