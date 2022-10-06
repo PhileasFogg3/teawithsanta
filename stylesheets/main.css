@@ -186,6 +186,14 @@
   .content {
     padding-bottom: 210px;
   }
+
+  .title {
+    width: 110%
+  }
+
+  body {
+    width: 97%
+  }
 }
 
 @media only screen and (max-width: 252px) {
