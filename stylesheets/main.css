@@ -11,6 +11,10 @@
   .content {
     padding-bottom: 60px;
   }
+
+  .title {
+    width: 103%;
+  }
 }
 
 @media only screen and (max-width: 1190px) {
@@ -21,6 +25,21 @@
 
   .content {
     padding-bottom: 80px;
+  }
+
+  .name {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (max-width: 923px) {
+  /* start of medium tablet styles */
+  .buttonBrowser {
+      display: inline-block;
+  }
+
+  .name {
+    font-size: 33px;
   }
 }
 
@@ -40,6 +59,10 @@
 
     .navBarBrowser {
       display: none;
+    }
+
+    .title {
+      width: 104%;
     }
 }
 
@@ -62,6 +85,10 @@
 
     .name {
       font-size: 30px;
+    }
+
+    .title {
+      width: 105%;
     }
 }
 
@@ -94,17 +121,6 @@
   }
 }
 
-@media only screen and (max-width: 479px) {
-    /* start of phone styles */
-    .buttonBrowser {
-        display: inline-block;
-    }
-
-    .name {
-      font-size: 25px
-    }
-}
-
 @media only screen and (max-width: 608px) {
   /* start of medium tablet styles */
   .buttonBrowser {
@@ -114,6 +130,21 @@
   .content {
     padding-bottom: 150px;
   }
+}
+
+@media only screen and (max-width: 479px) {
+    /* start of phone styles */
+    .buttonBrowser {
+        display: inline-block;
+    }
+
+    .name {
+      font-size: 25px
+    }
+
+    .title {
+      width: 106%;
+    }
 }
 
 @media only screen and (max-width: 389px) {
@@ -139,6 +170,10 @@
 
   .content {
     padding-bottom: 190px;
+  }
+
+  .title {
+    width: 107%;
   }
 }
 
@@ -181,14 +216,13 @@ html body {
 
 .title {
     background-image: url('../images/header.gif');
-    
+    background-repeat: repeat-x;
     height: 450px;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     padding-top: 0px;
     text-align: center; 
-    width: 100%;
     overflow-x: clip;
   }
 
@@ -205,6 +239,7 @@ body {
     padding: 0;
     background-color: #6bc6f3;
     overflow-x: hidden;
+    width: 98%;
 }
 
 .content { 
