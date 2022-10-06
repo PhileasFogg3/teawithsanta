@@ -1,9 +1,5 @@
 @media only screen and (min-width: 991px) {
   /* start of large tablet styles */
-  .navBarBrowser {
-      display: none;
-  }
-
   .buttonBrowser {
       display: inline-block;
   }
@@ -30,16 +26,20 @@
 
 @media only screen and (max-width: 991px) {
     /* start of large tablet styles */
-    .navBarBrowser {
-        display: none;
-    }
-
     .buttonBrowser {
         display: inline-block;
     }
 
     .name {
       font-size: 35px;
+    }
+
+    .content {
+      padding-bottom: 60px;
+    }
+
+    .navBarBrowser {
+      display: none;
     }
 }
 
