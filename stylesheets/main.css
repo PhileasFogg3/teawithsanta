@@ -455,4 +455,30 @@ body {
   width: 25%;
   overflow: hidden;
 }
+
+.centre {
+  text-align: center;
+}
+
+.textList {
+  margin: auto;
+  overflow: hidden;
+  color: white;
+  font-size: 20px;
+  list-style: inside;
+}
+
+.indent {
+  margin-left: 50px;
+}
+
+.aboutUsPic {
+  max-width: 50%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 /*End of file beep boop*/
