@@ -482,7 +482,7 @@ body {
 }
 
 .headerLogo {
-  max-width: 10%;
+  max-width: 300px;
   max-height: 10%;
   display: block;
   margin-left: auto;
