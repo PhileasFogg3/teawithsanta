@@ -479,6 +479,13 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
 
+.headerLogo {
+  max-width: 10%;
+  max-height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*End of file beep boop*/
