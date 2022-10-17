@@ -1,37 +1,491 @@
-/**! The Universal Section !*/
-* {
-    box-sizing: border-box;
-    margin: 0px;
-    background-image: linear-gradient( #54B0DE , #092D74);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 100%;
+@media only screen and (min-width: 991px) {
+  /* start of large tablet styles */
+  .buttonBrowser {
+      display: inline-block;
+  }
+
+  .name {
+    font-size: 35px;
+  }
+
+  .content {
+    padding-bottom: 60px;
+  }
+
+  .title {
+    width: 103%;
+  }
 }
 
-.title {
-    text-align: center;
-    padding-top: 20%;
+@media only screen and (max-width: 1190px) {
+  /* start of medium tablet styles */
+  .buttonBrowser {
+      display: inline-block;
+  }
+
+  .content {
+    padding-bottom: 80px;
+  }
+
+  .name {
+    font-size: 35px;
+  }
 }
+
+@media only screen and (max-width: 923px) {
+  /* start of medium tablet styles */
+  .buttonBrowser {
+      display: inline-block;
+  }
+
+  .name {
+    font-size: 33px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+    /* start of large tablet styles */
+    .buttonBrowser {
+        display: inline-block;
+    }
+
+    .name {
+      font-size: 35px;
+    }
+
+    .content {
+      padding-bottom: 60px;
+    }
+
+    .navBarBrowser {
+      display: none;
+    }
+
+    .title {
+      width: 104%;
+    }
+}
+
+@media only screen and (max-width: 797px) {
+  /* start of medium tablet styles */
+  .buttonBrowser {
+      display: inline-block;
+  }
+
+  .content {
+    padding-bottom: 100px;
+  }
+}
+    
+@media only screen and (max-width: 767px) {
+    /* start of medium tablet styles */
+    .buttonBrowser {
+        display: inline-block;
+    }
+
+    .name {
+      font-size: 30px;
+    }
+
+    .title {
+      width: 105%;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+  /* start of medium tablet styles */
+  .buttonBrowser {
+      display: inline-block;
+  }
+
+  .content {
+    padding-bottom: 110px;
+  }
+}
+
+@media only screen and (max-width: 548px) {
+  /* start of medium tablet styles */
+  .buttonBrowser {
+      display: inline-block;
+  }
+}
+
+@media only screen and (max-width: 649px) {
+  /* start of medium tablet styles */
+  .buttonBrowser {
+      display: inline-block;
+  }
+
+  .content {
+    padding-bottom: 130px;
+  }
+}
+
+@media only screen and (max-width: 608px) {
+  /* start of medium tablet styles */
+  .buttonBrowser {
+      display: inline-block;
+  }
+
+  .content {
+    padding-bottom: 150px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+    /* start of phone styles */
+    .buttonBrowser {
+        display: inline-block;
+    }
+
+    .name {
+      font-size: 20px
+    }
+
+    .title {
+      width: 106%;
+    }
+}
+
+@media only screen and (max-width: 389px) {
+  /* start of phone styles */
+  .buttonBrowser {
+      display: inline-block;
+  }
+
+  .name {
+    font-size: 20px
+  }
+
+  .content {
+    padding-bottom: 170px;
+  }
+}
+
+@media only screen and (max-width: 316px) {
+  /* start of medium tablet styles */
+  .buttonBrowser {
+      display: inline-block;
+  }
+
+  .content {
+    padding-bottom: 190px;
+  }
+
+  .title {
+    width: 107%;
+  }
+}
+
+@media only screen and (max-width: 278px) {
+  /* start of medium tablet styles */
+  .buttonBrowser {
+      display: inline-block;
+  }
+
+  .content {
+    padding-bottom: 210px;
+  }
+
+  .title {
+    width: 110%
+  }
+
+  body {
+    width: 97%
+  }
+}
+
+@media only screen and (max-width: 252px) {
+  /* start of medium tablet styles */
+  .buttonBrowser {
+      display: inline-block;
+  }
+
+  .content {
+    padding-bottom: 230px;
+  }
+}
+
+/* start of desktop styles */
 
 .name {
-    font-family: 'League Gothic', 'Times New Roman', Times, serif;
     color: white;
-    font-size: 50px ;
-}
-
-.pageName {
-    font-family: Kollektif, Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 25px;
     
 }
 
 .wAndLH {
-    font-family: Kollektif, Arial, Helvetica, sans-serif;
     color: black;
-    font-size: 15px;
 }
 
-div {
-    padding: 5px 5px 5px 5px;
+html body {
+  overflow-x: hidden;
 }
+
+.title {
+    background-image: url('../images/header.gif');
+    background-repeat: repeat-x;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 0px;
+    text-align: center; 
+    overflow-x: clip;
+  }
+
+.titleText {
+    text-align: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #6bc6f3;
+    overflow-x: hidden;
+    width: 98%;
+}
+
+.content { 
+    position: absolute;
+    width: 100%;
+    background-image: linear-gradient( #54B0DE , #092D74);
+    border-style: solid;
+    border-color: #333;
+    border-width: 10px;
+    overflow-x: hidden;
+}
+
+.footer {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: gray;
+    clear: both;
+    overflow: hidden;
+}
+
+/*! The Navbar for Browsers */
+
+.navBarBrowser {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+
+  .active a:hover {
+        background-color: #0a8357; 
+  }
+
+/*! End of Navbar for Browsers */
+
+/*? Navbar for Small Devices */
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hamburger {
+    width: 65px;
+    height: 65px;
+    position: relative;
+    cursor: pointer;
+    background: #111;
+    border-radius: 5px;
+    box-shadow: 0 0 15px  rgba(78,109,113,0.8);
+}
+
+.hamburger > div {
+    position: absolute;
+    height: 7px;
+    background: #fff;
+    border-radius: 5px;
+    transition: width 0.3s ease;
+}
+
+.first {
+    width: 35px;
+    top: 10px;
+    left: 10px;
+}
+
+.second {
+    width: 20px;
+    top: 30px;
+    left: 10px;
+}
+
+.third {
+    width: 35px;
+    top: 50px;
+    left: 10px;
+}
+
+.hamburger:hover div {
+    width: 40px;
+    transition: width 0.3s ease;
+}
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    background-color: inherit;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #111;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #04AA6D;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .buttonBrowser {
+    display: inline-block;
+    padding-top: 360px;
+    padding-right: 2400px;
+    
+    }
+  
+/*? End of Navbar for Small Devices */
+
+  .textContent {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .textContent h3 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .textContent p {
+    color: white;
+    font-size: 20px
+  }
+
+  .textContent div {
+    padding: 10px;
+  }
+
+  .textContent div p {
+    text-align: left;
+    padding-left: 5px;
+  }
+
+  .textContent div i {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .testimonials div {
+    border: #111;
+    border-style: solid;
+    border-radius: 10px;
+  }
+
+  .sponsorList div {
+    border: #111;
+    border-style: solid;
+    border-radius: 10px;
+  }
+
+.sponsorList img {
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  overflow: hidden;
+}
+
+.centre {
+  text-align: center;
+}
+
+.textList {
+  margin: auto;
+  overflow: hidden;
+  color: white;
+  font-size: 20px;
+  list-style: inside;
+}
+
+.indent {
+  margin-left: 50px;
+}
+
+.aboutUsPic {
+  max-width: 50%;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerLogo {
+  max-width: 300px;
+  max-height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*End of file beep boop*/
