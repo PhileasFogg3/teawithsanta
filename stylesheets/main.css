@@ -267,7 +267,8 @@ body {
     bottom: 0;
     background: gray;
     clear: both;
-    overflow: hidden;
+    overflow: scroll;
+    text-align: center;
 }
 
 /*! The Navbar for Browsers */
