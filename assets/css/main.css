@@ -75,6 +75,9 @@ h6 {
   font-family: var(--heading-font);
 }
 
+h4:hover{
+  color: var(--accent-color);
+}
 /*--------------------------------------------------------------
 # Global Header
 --------------------------------------------------------------*/
@@ -1067,6 +1070,12 @@ section,
 .pricing .featured {
   z-index: 10;
   border: 3px solid var(--accent-color);
+}
+
+.redText{
+
+  color:#e43c5c;
+
 }
 
 @media (min-width: 992px) {
