@@ -1283,3 +1283,7 @@ section,
   margin-bottom: 0;
   font-size: 14px;
 }
+
+.contactImg {
+  padding-bottom: 10px;
+}
